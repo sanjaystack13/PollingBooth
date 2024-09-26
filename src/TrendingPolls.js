@@ -42,7 +42,7 @@ const TrendingPolls = () => {
     >
       <div className="LaptopTrending">
         <Card>
-          <h1>TRENDING POLLS</h1>
+          <h1>TRENDING POLLSS</h1>
         </Card>
         <br />
         {trendingpolls?.map((polls, index) => (
