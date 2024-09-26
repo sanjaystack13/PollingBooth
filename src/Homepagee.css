@@ -1,0 +1,101 @@
+.sidebar {
+    display: flex;
+    /* height: 50%;
+    width: 250px; */
+    margin-top: 12%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    border-right: 1px solid #dee2e6;
+}  
+.delete{
+    padding-left: 45px;
+    font-size: 20px;
+    color: red;
+}
+.edit{
+    padding-left: 25px;
+    font-size: 20px;
+    color: black;
+}
+.buttonfollow{
+    margin-left: 30px!important;
+    padding: 5px!important;
+    height: 35px;
+    width: 100px;
+}
+.profileforhome{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.buttonCategory{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: black;
+}
+.buttonCategory:hover{
+    background-color: lightcoral; /* Green */
+    color: black;
+    transition: 0.4s;
+    border-color: lightcoral;
+}
+.categoryyyyy{
+    height: 50px;
+    color: black;
+    border: "none";
+    border-radius: 20px!important;
+    border-radius: "50px"!important;
+    font-size: "16px";
+    cursor: "pointer";
+    background: linear-gradient(white,lightblue);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;}
+
+.categoryyyyy:hover{
+    color: white;
+    background: black;
+    transition: 0.5s;
+}
+.cardquestion{
+    background: white!important;
+    padding: 15px;
+    border-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(103, 7, 7, 0.22) 0px 15px 12px!important;
+}
+.cardoptions{
+background: linear-gradient(white,white)!important;
+margin-bottom: 1px solid white;
+padding: 10px;
+padding-left: 20px;
+height: auto;
+border-color: white;
+border-right: black!important;
+}
+.homepagebody{
+    height: auto;
+    padding-top: 30px;
+    /* font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal; */
+    font-size: 15px;
+    background-color: white;
+  }
+  .cardhomepage{
+    margin-bottom: 25px!important;
+     background: "red"!important; 
+     /* padding-bottom: 30px;
+     padding-top: 30px;
+     padding-left: 30px; */
+     padding: 30px;
+     border-radius: 50px;
+     background: lightblue!important;
+     border-color: darkcyan;
+     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;      }
+  .cardhomepage:hover{
+    background-color: lightcyan !important;
+    transition: 0.8s!important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }

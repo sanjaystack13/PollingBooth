@@ -1,0 +1,163 @@
+
+.cardd{
+  /* background-color: white!important; */
+  align-items: center;
+  height: auto!important;
+  width: auto!important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.addpollbg{
+  background: white!important;
+  height: auto;
+  min-height: 100vh;
+  padding-top: 30px;
+  color: white!important;
+}
+.vote-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+
+.vote-button.vote {
+  background-color: #4caf50; 
+  height: auto;
+ width: auto;
+}
+  
+/* Style for unvote button */
+.vote-button.unvote {
+  background-color: #f44336; /* Red for unvoting */
+}
+
+/* Style for percentage display */
+.percentage {
+  font-size: 18px;
+  color: #333;
+}
+
+/* .vote-bar {
+  margin: 10px 0;
+  padding: 5px;
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  background-color: #f4f4f4; 
+  width: 100%; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+} */
+
+
+.bar {
+  width: 100%;
+  background-color: #ddd; 
+  border-radius: 5px; 
+  height: 20px; 
+  position: relative; 
+}
+
+
+.filled-bar {
+  height: 100%; 
+  background-color: #4caf50; 
+  border-radius: 5px; 
+  transition:  0.8s ease; 
+}
+.TopnavbarLaptop{
+  background: lightblue;
+}
+
+.vote-bar p {
+  text-align: center; 
+  margin: 5px 0 0; 
+  font-size: 14px; 
+  color: #333; 
+}
+.percentage-text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.cardtrendingpolls:hover{
+  height: 22vh!important;
+  background: black!important;
+  color: white!important;
+  transition: 0.5s;
+  /* padding: 60px; */
+  
+}
+.toggle{
+  display: none;
+}
+.side-navbar{
+  background: lightblue!important
+}
+.trendedpolls{
+  background: transparent;
+}
+@media only screen and (max-width:576px){
+
+  
+  .LaptopTrending{
+    display: none;
+    font-size: 30px;
+  }
+  .MobileTrending{
+    display: none;
+    font-size: 30px;
+  }
+  .laptopcate{
+    display: none!important;
+    font-size: 50px!important;
+  }
+  .toggle{
+    display: none;
+    font-size: 50px!important;
+  }
+
+  .Laptop{
+    display: none;
+    font-size: 50px!important;
+  }
+  .MobileTopnavbar{
+    display: contents;
+    font-size: 50px!important;
+  }
+  .TopnavbarLaptop{
+    display: none;
+    font-size: 50px!important;
+  }
+}
+@media (max-width: 992px) { 
+  .TopnavbarLaptop {
+    display: none;
+  }
+
+  .MobileTopnavbar {
+    display: block;
+  }
+}
+
+@media (min-width: 993px) { 
+  .TopnavbarLaptop {
+    display: block;
+  }
+
+  .MobileTopnavbar {
+    display: none;
+  }
+}
+.laptopcate {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 10px; 
+  margin-bottom: 20px;
+}

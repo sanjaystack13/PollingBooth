@@ -1,0 +1,24 @@
+.cardprofilepage{
+    background: white!important;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400!important;
+    font-style: normal;
+    font: bold!important;
+}
+/* .card{
+    background: linear-gradient(white,lightblue);
+    box-shadow: 3px 3px 3px 3px lightgrey;
+} */
+.polls{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.carduserdetails{
+    background: lightblue;
+}
+.CreatedPolls{
+    border: none!important;
+    background-color: transparent;
+    color: black;
+}
